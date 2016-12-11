@@ -1,6 +1,6 @@
 # spilth Homebrew Taps
 
-This is a Homebrew tap repository containing a collection of formulae for toold made by [spilth](https://github.com/spilth).
+This is a Homebrew tap repository containing a collection of formulas for tools made by [spilth](https://github.com/spilth).
 
 ## Usage
 
