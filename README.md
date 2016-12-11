@@ -6,6 +6,6 @@ This is a Homebrew tap repository containing a collection of formulas for tools 
 
 ```bash
 $ brew tap spilth/tap
-$ brew install savant # This isn't actually available yet!
+$ brew install savant
 ```
 
