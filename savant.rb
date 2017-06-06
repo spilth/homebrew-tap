@@ -1,8 +1,8 @@
 require 'formula'
 
 class Savant < Formula
-  url 'https://s3.amazonaws.com/binaries.spilth.org/savant/savant-06-04-17_21-51-43.tar.gz'
-  sha256 '3ff2596f6b2e1c0c86143dfd5f55487e9f4f1ee112ff7b4d34717388dd67e20a'
+  url 'https://s3.amazonaws.com/binaries.spilth.org/savant/savant-06-06-17_00-45-48.tar.gz'
+  sha256 '6915eaacc4897056b573c1c2ae0bc01c42112838c3e79b89d9aa620ab0aaaa20'
 
   def install
     root = '.'
