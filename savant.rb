@@ -1,7 +1,7 @@
 require 'formula'
 
 class Savant < Formula
-  depends_on 'cask/java'
+  depends_on 'caskroom/cask/java'
   depends_on 'maven'
 
   url 'https://s3.amazonaws.com/binaries.spilth.org/savant/savant-11-04-17_19-38-51.tar.gz'
