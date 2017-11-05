@@ -4,8 +4,8 @@ class Savant < Formula
   depends_on java: '9.0+'
   depends_on 'maven'
 
-  url 'https://s3.amazonaws.com/binaries.spilth.org/savant/savant-11-05-17_11-02-26.tar.gz'
-  sha256 '05878158324acaf099f79a6917148c413a88ffb429b98464e5d9e13e0e4288d8'
+  url 'https://s3.amazonaws.com/binaries.spilth.org/savant/savant-11-05-17_12-41-13.tar.gz'
+  sha256 'c53eca84e736cdfc713b559901fd85eb93fee39d9aa0d0270185c62d69d2b813'
 
   def install
     root = '.'
