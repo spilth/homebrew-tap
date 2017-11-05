@@ -1,11 +1,11 @@
 require 'formula'
 
 class Savant < Formula
-  depends_on java: '1.8+'
+  depends_on java: '9.0+'
   depends_on 'maven'
 
-  url 'https://s3.amazonaws.com/binaries.spilth.org/savant/savant-11-04-17_19-38-51.tar.gz'
-  sha256 'fc022b134b8f7b191ef5821a88e030f357d7d00578939ef6da4d45bdb962bef8'
+  url 'https://s3.amazonaws.com/binaries.spilth.org/savant/savant-11-05-17_11-02-26.tar.gz'
+  sha256 '05878158324acaf099f79a6917148c413a88ffb429b98464e5d9e13e0e4288d8'
 
   def install
     root = '.'
@@ -14,4 +14,3 @@ class Savant < Formula
     lib.install Dir["#{root}/lib/savant-*.jar"]
   end
 end
-
