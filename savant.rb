@@ -1,11 +1,11 @@
 require 'formula'
 
 class Savant < Formula
-  depends_on java: '9.0+'
+  depends_on java: '1.8+'
   depends_on 'maven'
 
-  url 'https://s3.amazonaws.com/binaries.spilth.org/savant/savant-11-05-17_12-41-13.tar.gz'
-  sha256 'c53eca84e736cdfc713b559901fd85eb93fee39d9aa0d0270185c62d69d2b813'
+  url 'https://s3.amazonaws.com/binaries.spilth.org/savant/savant-11-09-17_18-58-07.tar.gz'
+  sha256 '09d57eae0fdf52a937df1dc01142fffa39d8fea0a73c1b6071b3c14120c2a0f5'
 
   def install
     root = '.'
